@@ -1,0 +1,67 @@
+/*AYUDA*/
+.options {
+    display: flex;
+    justify-content: space-evenly;
+
+    .options__infoo {
+        color: $colorLetra;
+        background-color: rgba(255, 0, 0, 0.178);
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 100px;
+        margin-bottom: 333px;
+    }
+}
+/*MIXIN*/
+.title {
+    @include titulos;
+}
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+     /*AYUDA*/
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+
+        .options__infoo {
+            color: $colorLetra;
+            background-color: rgba(255, 0, 0, 0.178);
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 100px;
+            margin-bottom: 255px;
+        }
+    }
+
+    .title {
+        color: $colorLetra;
+        font-size: 40px;
+        margin-top: 80px;
+        font-style: italic;
+    }
+}
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px){
+    
+    /*AYUDA*/
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+
+        .options__infoo {
+            color: $colorLetra;
+            background-color: rgba(255, 0, 0, 0.178);
+            font-size: 13px;
+            padding: 7px;
+            margin-top: 10px;
+            margin-bottom: 100px;
+        }
+    }
+
+    .title {
+        color: $colorLetra;
+        font-size: 40px;
+        margin-top: 58px;
+        font-style: italic;
+    }
+}

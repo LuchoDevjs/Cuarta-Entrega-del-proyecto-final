@@ -1,0 +1,46 @@
+/*QUIENESOMOS*/
+.paragraphP {
+    color: $colorLetra;
+    text-align: right;
+
+    .paragraphP__relleno {
+        border: 2px solid rgb(105, 105, 105);
+        padding: 10px;
+        border-radius: 2em 1em 4em / 0.5em 3em;
+        background-color: rgba(80, 0, 0, 0.438);
+        line-height: 60px;
+    }
+}
+
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+    /*QUIENESOMOS*/
+    .paragraphP {
+        color: $colorLetra;
+        text-align: right;
+
+        .paragraphP__relleno {
+            border: 2px solid rgb(105, 105, 105);
+            padding: 10px;
+            border-radius: 2em 1em 4em / 0.5em 3em;
+            background-color: rgba(80, 0, 0, 0.438);
+            line-height: 60px;
+        }
+    }
+}
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px){
+     /*QUIENESOMOS*/
+    .paragraphP {
+        color: $colorLetra;
+        text-align: right;
+
+        .paragraphP__relleno {
+            border: 2px solid rgb(105, 105, 105);
+            padding: 10px;
+            border-radius: 2em 1em 4em / 0.5em 3em;
+            background-color: rgba(80, 0, 0, 0.438);
+            line-height: 60px;
+        }
+    }
+}
