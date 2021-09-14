@@ -67,7 +67,7 @@ a:-webkit-any-link {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    margin-top: 20px;
+    margin-top: 28px;
     padding-top: auto;
     background-image: linear-gradient(to top, rgba(165, 0, 0, 0.281), rgba(255, 0, 0, 0));
     list-style: none; }
@@ -88,7 +88,7 @@ a:-webkit-any-link {
     cursor: grab;
     font-size: 19px; }
   .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.062);
+    background-color: rgba(255, 43, 43, 0.301);
     border: none; }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
@@ -181,8 +181,8 @@ a:-webkit-any-link {
   /*INDEX*/
   .imgWlc {
     background-color: rgba(165, 0, 0, 0.178);
-    margin-top: 315px;
-    margin-bottom: 315px;
+    margin-top: 312px;
+    margin-bottom: 312px;
     transition: all 2s;
     text-align: center; }
   .imgWlc:hover {
