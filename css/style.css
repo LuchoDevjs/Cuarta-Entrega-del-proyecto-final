@@ -133,7 +133,7 @@ a:-webkit-any-link {
     cursor: grab;
     font-size: 19px; }
   .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.062);
+    background-color: rgba(255, 43, 43, 0.301);
     border: none; }
   .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.active,
