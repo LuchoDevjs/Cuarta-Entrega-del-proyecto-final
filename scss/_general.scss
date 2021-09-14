@@ -2,7 +2,7 @@
 body {
     background-image:url("../assets/img/boxeoOP.jpg");
     font-family:'Roboto';
-    font-style: $styleLetraB;
+    font-style: $styleLetraA;
     background-attachment: fixed;
     line-height: 30px;
     text-align: center;
@@ -67,11 +67,11 @@ a:-webkit-any-link {
 
     /*GENERAL*/
     body {
-        background-image: url("../assets/img/boxeo.jpg");
+        background-image:url("../assets/img/boxeoOP.jpg");
 
         font: {
             family: $letra;
-            style: $styleLetraB;
+            style: $styleLetraA;
         }
 
         background-attachment: fixed;
@@ -138,11 +138,11 @@ a:-webkit-any-link {
 
     /*GENERAL*/
     body {
-        background-image: url("../assets/img/boxeo.jpg");
+        background-image:url("../assets/img/boxeoOP.jpg");
 
         font: {
             family: $letra;
-            style: $styleLetraB;
+            style: $styleLetraA;
         }
 
         background-attachment: fixed;
